@@ -61,7 +61,6 @@ Returns a response indicating the completion of the blog generation process.
 
 ## Example Event Payload
 ``` json
-Copy code
 {
   "body": "{\"blog_topic\": \"The future of AI in healthcare\"}"
 }
@@ -72,7 +71,6 @@ Create a Deployment Package:
 
 Package your Lambda function code along with its dependencies. You can use a tool like zip or AWS SAM to create the deployment package.
 ``` sh
-Copy code
 zip -r lambda_function.zip lambda_function.py
 ```
 Deploy the Lambda Function:
